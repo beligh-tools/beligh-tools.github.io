@@ -1,0 +1,106 @@
+<h1>Weather</h1>
+
+@defer (on viewport; prefetch on idle) {
+  <mat-card class="max-w-xl m-3">
+    <mat-card-header>
+      <mat-card-title>🗓️ On This Day: </mat-card-title>
+      <mat-card-subtitle>See historical weather for this day of the year at your location.</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+
+      <mat-list>
+        <mat-list-item>
+          <mat-icon matListItemIcon>calendar_today</mat-icon>
+          <div matListItemTitle>Current Date: {{ dayjs().format('LL') }}</div>
+        </mat-list-item>
+        <mat-list-item>
+          <mat-icon matListItemIcon>flag</mat-icon>
+          <div matListItemTitle>Country: {{ currentPosition() }}</div>
+        </mat-list-item>
+      </mat-list>
+
+      <mat-form-field>
+        <mat-label>Choose a country</mat-label>
+        <mat-select [formControl]="currentPositionFromControl">
+          <mat-option *ngFor="let country of allCountries" [value]="country">{{ country }}</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+    </mat-card-content>
+  </mat-card>
+} @loading {
+  <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+} @error {
+  Loading failed :(
+} @placeholder {
+  <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+}
+
+@defer (on viewport; prefetch on idle) {
+  <mat-card class="m-3">
+    <mat-card-header>
+      <mat-card-title>Last 5 years</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <div class="grid gap-2 sm:grid-cols-5">
+        <app-card-overview *ngFor="let i of [5,4,3,2,1]" [date]="dayjs().subtract(i, 'y')"></app-card-overview>
+      </div>
+    </mat-card-content>
+  </mat-card>
+} @loading {
+  <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+} @error {
+  Loading failed :(
+} @placeholder {
+  <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+}
+
+@defer (on viewport; prefetch on idle) {
+  <mat-card class="m-3">
+    <mat-card-header>
+      <mat-card-title>
+        Historical Data for {{ currentPosition() }} on {{ dayjs().format('D') }}. {{ dayjs().format('MMM') }}
+      </mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+
+      @defer (on viewport; prefetch on idle) {
+        <app-weather-chart></app-weather-chart>
+      } @loading {
+        <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+      } @error {
+        Loading failed :(
+      } @placeholder {
+        <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+      }
+
+
+      <div class="py-2">
+        <div class="px-4 py-3">
+          <div class="grid grid-cols-3 sm:grid-cols-4 gap-x-6 gap-y-6">
+              <app-card-preview
+                *ngFor="let i of [1,2,3,4,5,6,7,8,9,10,11,12]"
+                class="bg-white rounded-lg shadow-sm p-1"
+                [date]="dayjs().subtract(i, 'y')" />
+          </div>
+        </div>
+      </div>
+
+    </mat-card-content>
+  </mat-card>
+} @loading {
+  <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+} @error {
+  Loading failed :(
+} @placeholder {
+  <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+}
+
+
+
+
+
+
+
+
+

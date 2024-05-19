@@ -1,0 +1,20 @@
+<div class="custom-vis">
+
+  <button mat-raised-button  (click)="loadAllHistoricData()" class="p-2 m-2">
+    <mat-icon aria-label="refresh">refresh</mat-icon>
+    <span>Load All historic data</span>
+  </button>
+
+  <vis-bullet-legend [items]="legendItems"></vis-bullet-legend>
+  <vis-xy-container [data]="graphData">
+    <vis-scatter [x]="x" [y]="y"></vis-scatter>
+    <vis-line  [x]="x" [y]="y[0]" [lineWidth]="5"></vis-line>
+    <vis-axis type="x" label="Date" [numTicks]="10"></vis-axis>
+    <vis-axis type="y" label="Temperature/Precipitation"  [numTicks]="5"></vis-axis>
+  </vis-xy-container>
+
+  <p>
+    Temperature (celsius) / Precipitation (mm)
+  </p>
+
+</div>
