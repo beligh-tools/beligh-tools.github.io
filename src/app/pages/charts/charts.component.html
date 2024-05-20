@@ -1,0 +1,58 @@
+<h1>Charts</h1>
+
+<mat-card class="m-3">
+  <mat-card-header>
+    <mat-card-title>Chart: Dagre Layout Graph</mat-card-title>
+    <mat-card-subtitle>Dagre Layout Graph</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <p>Apache ECharts: https://echarts.apache.org </p>
+    <p>https://awesome.cube.dev/for/angular</p>
+
+  </mat-card-content>
+</mat-card>
+
+
+<mat-card class="m-3">
+  <mat-card-header>
+    <mat-card-title>Chart: Dagre Layout Graph</mat-card-title>
+    <mat-card-subtitle>Dagre Layout Graph</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+
+    <vis-single-container [data]="data1" [height]="600">
+      <vis-graph
+        [layoutType]="layoutType1"
+        [nodeLabel]="nodeLabel1"
+        [nodeShape]="nodeShape1"
+        [linkFlow]="linkFlow1"
+        [linkStroke]="linkStroke1"
+      ></vis-graph>
+    </vis-single-container>
+
+  </mat-card-content>
+</mat-card>
+
+
+<mat-card class="m-3">
+  <mat-card-header>
+    <mat-card-title>Chart: Donut</mat-card-title>
+    <mat-card-subtitle>Most Common Password Categories</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+
+    <vis-bullet-legend [items]="legendItems2"></vis-bullet-legend>
+    <vis-single-container [height]="400">
+      <vis-donut
+        [value]="value2"
+        [data]="data2"
+        [showEmptySegments]="true"
+        [padAngle]="0.01"
+        [arcWidth]="100"
+      />
+    </vis-single-container>
+
+  </mat-card-content>
+</mat-card>
+
+

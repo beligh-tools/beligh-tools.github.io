@@ -1,1 +1,11 @@
 <h1>Home</h1>
+
+<mat-card class="m-3">
+  <mat-card-header>
+    <mat-card-title>Welcome</mat-card-title>
+    <mat-card-subtitle></mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <div [innerHTML]="config?.description"></div>
+  </mat-card-content>
+</mat-card>

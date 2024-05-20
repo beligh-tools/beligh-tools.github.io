@@ -1,0 +1,80 @@
+[
+  {
+    "id": "S:cartservice.app",
+    "label": "cartservice.app",
+    "shape": "hexagon",
+    "color": "#35D068"
+  },
+  {
+    "id": "N:vk8s-service-network",
+    "label": "vk8s-service-network",
+    "shape": "square",
+    "color": "#35D068"
+  },
+  {
+    "id": "S:frontend.app",
+    "label": "frontend.app",
+    "shape": "hexagon",
+    "color": "#35D068"
+  },
+  {
+    "id": "S:recommendationservice.app",
+    "label": "recommendationservice.app",
+    "shape": "hexagon",
+    "color": "#35D068"
+  },
+  {
+    "id": "S:adservice.app",
+    "label": "adservice.app",
+    "shape": "hexagon",
+    "color": "#35D068"
+  },
+  {
+    "id": "S:checkoutservice.app",
+    "label": "checkoutservice.app",
+    "shape": "hexagon",
+    "color": "#35D068"
+  },
+  {
+    "id": "S:currencyservice.app",
+    "label": "currencyservice.app",
+    "shape": "hexagon",
+    "color": "#35D068"
+  },
+  {
+    "id": "S:productcatalogservice.app",
+    "label": "productcatalogservice.app",
+    "shape": "hexagon",
+    "color": "#35D068"
+  },
+  {
+    "id": "S:cart.app",
+    "label": "cart.app",
+    "shape": "hexagon",
+    "color": "#35D068"
+  },
+  {
+    "id": "S:shippingservice.app",
+    "label": "shippingservice.app",
+    "shape": "hexagon",
+    "color": "#35D068"
+  },
+  {
+    "id": "N:public",
+    "label": "public",
+    "shape": "square",
+    "color": "#35D068"
+  },
+  {
+    "id": "S:emailservice.app",
+    "label": "emailservice.app",
+    "shape": "hexagon",
+    "color": "#35D068"
+  },
+  {
+    "id": "S:paymentservice.app",
+    "label": "paymentservice.app",
+    "shape": "hexagon",
+    "color": "#35D068"
+  }
+]
