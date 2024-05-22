@@ -1,0 +1,27 @@
+{
+  "title": "Beligh Tools",
+  "logo": "assets/logo.svg",
+  "description": "<h3>A collection of tools for the BH team</h3>",
+  "links": [
+    {
+      "title": "Home",
+      "url": "/",
+      "icon": "home"
+    },
+    {
+      "title": "Expenses",
+      "url": "/expenses",
+      "icon": "savings"
+    },
+    {
+      "title": "Weather",
+      "url": "/weather",
+      "icon": "cloudy_snowing"
+    },
+    {
+      "title": "Charts",
+      "url": "/charts",
+      "icon": "insert_chart"
+    }
+  ]
+}
