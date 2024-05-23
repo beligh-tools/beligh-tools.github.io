@@ -39,7 +39,9 @@
               "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/sql.js-httpvfs/dist/sqlite.worker.js"
+            ]
           },
           "configurations": {
             "production": {
