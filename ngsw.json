@@ -1,0 +1,127 @@
+{
+  "configVersion": 1,
+  "timestamp": 1716431129647,
+  "index": "https://beligh-tools.github.io/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://beligh-tools.github.io/chunk-2SN2PGSB.js",
+        "https://beligh-tools.github.io/chunk-3TK6N7GQ.js",
+        "https://beligh-tools.github.io/chunk-5QNYT6DY.js",
+        "https://beligh-tools.github.io/chunk-5UP4YTES.js",
+        "https://beligh-tools.github.io/chunk-5UXWWNJ6.js",
+        "https://beligh-tools.github.io/chunk-7ZGUACND.js",
+        "https://beligh-tools.github.io/chunk-A4H3MHU6.js",
+        "https://beligh-tools.github.io/chunk-AB6FBSTD.js",
+        "https://beligh-tools.github.io/chunk-AXGRCJSR.js",
+        "https://beligh-tools.github.io/chunk-BCSJ5UOI.js",
+        "https://beligh-tools.github.io/chunk-BJ6GKAC7.js",
+        "https://beligh-tools.github.io/chunk-BJWDDHQI.js",
+        "https://beligh-tools.github.io/chunk-DCKGB75X.js",
+        "https://beligh-tools.github.io/chunk-EGA5CD35.js",
+        "https://beligh-tools.github.io/chunk-EWDYQQVI.js",
+        "https://beligh-tools.github.io/chunk-G6Z64TNK.js",
+        "https://beligh-tools.github.io/chunk-H26QV5GH.js",
+        "https://beligh-tools.github.io/chunk-HCDPX7QC.js",
+        "https://beligh-tools.github.io/chunk-IHDSZCFM.js",
+        "https://beligh-tools.github.io/chunk-IX6G3U3V.js",
+        "https://beligh-tools.github.io/chunk-KTTCN6RB.js",
+        "https://beligh-tools.github.io/chunk-KUUF2XOK.js",
+        "https://beligh-tools.github.io/chunk-LKALUBIE.js",
+        "https://beligh-tools.github.io/chunk-MNC32ANS.js",
+        "https://beligh-tools.github.io/chunk-N62JWS3I.js",
+        "https://beligh-tools.github.io/chunk-QGCUERB3.js",
+        "https://beligh-tools.github.io/chunk-TJ2PARF2.js",
+        "https://beligh-tools.github.io/chunk-UKT2PSZX.js",
+        "https://beligh-tools.github.io/chunk-VSESAH2Q.js",
+        "https://beligh-tools.github.io/chunk-WRB5YP3S.js",
+        "https://beligh-tools.github.io/chunk-YJL6I6GC.js",
+        "https://beligh-tools.github.io/chunk-ZGWZXW6P.js",
+        "https://beligh-tools.github.io/favicon.ico",
+        "https://beligh-tools.github.io/index.html",
+        "https://beligh-tools.github.io/main-MA4JD3E4.js",
+        "https://beligh-tools.github.io/polyfills-A7MJM4D4.js",
+        "https://beligh-tools.github.io/styles-OAJPTLG7.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://beligh-tools.github.io/assets/logo.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://beligh-tools.github.io/assets/logo.svg": "ee20b3466e825d050f89e9fe46e371d71213a737",
+    "https://beligh-tools.github.io/chunk-2SN2PGSB.js": "c26c615515856892a967722876e12ed249f17380",
+    "https://beligh-tools.github.io/chunk-3TK6N7GQ.js": "efcedffd5758720d1b68fb6bf2bef35de0fe769b",
+    "https://beligh-tools.github.io/chunk-5QNYT6DY.js": "ed834cc84cb02e443759f846749bb363f0e5a7e4",
+    "https://beligh-tools.github.io/chunk-5UP4YTES.js": "8e90791c9ba12b5546b9bc2b62441445f994c87b",
+    "https://beligh-tools.github.io/chunk-5UXWWNJ6.js": "34ba81ef9c38fd8d2a2b867f807b5c2cf0fc1349",
+    "https://beligh-tools.github.io/chunk-7ZGUACND.js": "11c3505dc094b1074b4b4e5352ccd08768669c77",
+    "https://beligh-tools.github.io/chunk-A4H3MHU6.js": "82a8c4e70b42ec574c88511e1e98315cba9b1f81",
+    "https://beligh-tools.github.io/chunk-AB6FBSTD.js": "19555e6e85db589264f1971379db56a5b194357d",
+    "https://beligh-tools.github.io/chunk-AXGRCJSR.js": "57cbb76eef2e81d841124c0543076282d9118f84",
+    "https://beligh-tools.github.io/chunk-BCSJ5UOI.js": "deedba3070288d670cafc5ae30bcf7057bad49b8",
+    "https://beligh-tools.github.io/chunk-BJ6GKAC7.js": "29a4509868b07126b2301a710ae1a94234a68d90",
+    "https://beligh-tools.github.io/chunk-BJWDDHQI.js": "b593f9408897c3ce719c5563df1309ad5575b430",
+    "https://beligh-tools.github.io/chunk-DCKGB75X.js": "35cee87b823b53f0c1b5c819c05fcc5e25d0d421",
+    "https://beligh-tools.github.io/chunk-EGA5CD35.js": "594550e5a42191d053ce5a3009f86d0b420857b7",
+    "https://beligh-tools.github.io/chunk-EWDYQQVI.js": "c03ddbdc13d1e7430640892340c0040823c5b058",
+    "https://beligh-tools.github.io/chunk-G6Z64TNK.js": "f73c9043fc0b9228ae142687d370f4f677462320",
+    "https://beligh-tools.github.io/chunk-H26QV5GH.js": "23b0a064a6bf87b42dd3d35108ce5c77d442ee28",
+    "https://beligh-tools.github.io/chunk-HCDPX7QC.js": "f3c40b32bf9b4fedd73c03ba3675277320cafb22",
+    "https://beligh-tools.github.io/chunk-IHDSZCFM.js": "24dcc4e6291bbff9d1db572dec658f679fbb1161",
+    "https://beligh-tools.github.io/chunk-IX6G3U3V.js": "ab4d039448afb6c87dfb5eed1c7ea999f5a0cf7d",
+    "https://beligh-tools.github.io/chunk-KTTCN6RB.js": "7c305b65a6694d0bad1d34380b0cdb583dcd2a22",
+    "https://beligh-tools.github.io/chunk-KUUF2XOK.js": "8e8b566c52bd2f3f9d4883cd3d5fe14d7d442ee9",
+    "https://beligh-tools.github.io/chunk-LKALUBIE.js": "619c342a9107d83690fdf16cab8cac978efbd892",
+    "https://beligh-tools.github.io/chunk-MNC32ANS.js": "7f26f64d3a8cab2634b97e458b9886146c4a33c8",
+    "https://beligh-tools.github.io/chunk-N62JWS3I.js": "afb4afa2635614eb9c60dae41656dcb5ad2d1089",
+    "https://beligh-tools.github.io/chunk-QGCUERB3.js": "2dfa7b6c64137c615e0dbd01e333153084d6f5b6",
+    "https://beligh-tools.github.io/chunk-TJ2PARF2.js": "6245f6b98b80cf90d52f37702c39625f016f8f5e",
+    "https://beligh-tools.github.io/chunk-UKT2PSZX.js": "93b3eeb12e70c394d3b8b9dd61102ea8e1b7e25d",
+    "https://beligh-tools.github.io/chunk-VSESAH2Q.js": "9d08054e347ead143aeb7d41ed45d60e0f14c077",
+    "https://beligh-tools.github.io/chunk-WRB5YP3S.js": "e3777aa09cf6399a0d372418fa8036a081702c16",
+    "https://beligh-tools.github.io/chunk-YJL6I6GC.js": "ca513e2967b0d6858cd51ae5454d24389a27eb10",
+    "https://beligh-tools.github.io/chunk-ZGWZXW6P.js": "0be2b480e9dd93bd9287b3eaefcadb7604efdfef",
+    "https://beligh-tools.github.io/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "https://beligh-tools.github.io/index.html": "53277ee76eef8345c54c03ae1ea73b866c8ee407",
+    "https://beligh-tools.github.io/main-MA4JD3E4.js": "e3bc5048091b1f259172b1a10e5dca0bfc42479a",
+    "https://beligh-tools.github.io/polyfills-A7MJM4D4.js": "547053781d5952561abe68a51cc6c1a2b1b51c55",
+    "https://beligh-tools.github.io/styles-OAJPTLG7.css": "54c173bdf8b14aff0fafc0782352ee3570c9b0c1"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
