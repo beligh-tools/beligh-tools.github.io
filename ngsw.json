@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1716431986684,
+  "timestamp": 1716432414383,
   "index": "https://beligh-tools.github.io/index.html",
   "assetGroups": [
     {
@@ -11,6 +11,7 @@
         "ignoreVary": true
       },
       "urls": [
+        "https://beligh-tools.github.io/assets/manifest.webmanifest",
         "https://beligh-tools.github.io/chunk-2SN2PGSB.js",
         "https://beligh-tools.github.io/chunk-3TK6N7GQ.js",
         "https://beligh-tools.github.io/chunk-5QNYT6DY.js",
@@ -83,6 +84,7 @@
     "https://beligh-tools.github.io/assets/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "https://beligh-tools.github.io/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
     "https://beligh-tools.github.io/assets/logo.svg": "ee20b3466e825d050f89e9fe46e371d71213a737",
+    "https://beligh-tools.github.io/assets/manifest.webmanifest": "6bd109a4bb0be050b95be6c77cd2f8b18723e406",
     "https://beligh-tools.github.io/chunk-2SN2PGSB.js": "c26c615515856892a967722876e12ed249f17380",
     "https://beligh-tools.github.io/chunk-3TK6N7GQ.js": "efcedffd5758720d1b68fb6bf2bef35de0fe769b",
     "https://beligh-tools.github.io/chunk-5QNYT6DY.js": "ed834cc84cb02e443759f846749bb363f0e5a7e4",
