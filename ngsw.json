@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1716432414383,
+  "timestamp": 1716433031328,
   "index": "https://beligh-tools.github.io/index.html",
   "assetGroups": [
     {
@@ -11,7 +11,6 @@
         "ignoreVary": true
       },
       "urls": [
-        "https://beligh-tools.github.io/assets/manifest.webmanifest",
         "https://beligh-tools.github.io/chunk-2SN2PGSB.js",
         "https://beligh-tools.github.io/chunk-3TK6N7GQ.js",
         "https://beligh-tools.github.io/chunk-5QNYT6DY.js",
@@ -47,6 +46,7 @@
         "https://beligh-tools.github.io/favicon.ico",
         "https://beligh-tools.github.io/index.html",
         "https://beligh-tools.github.io/main-MA4JD3E4.js",
+        "https://beligh-tools.github.io/manifest.webmanifest",
         "https://beligh-tools.github.io/polyfills-A7MJM4D4.js",
         "https://beligh-tools.github.io/styles-OAJPTLG7.css"
       ],
@@ -84,7 +84,6 @@
     "https://beligh-tools.github.io/assets/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "https://beligh-tools.github.io/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
     "https://beligh-tools.github.io/assets/logo.svg": "ee20b3466e825d050f89e9fe46e371d71213a737",
-    "https://beligh-tools.github.io/assets/manifest.webmanifest": "6bd109a4bb0be050b95be6c77cd2f8b18723e406",
     "https://beligh-tools.github.io/chunk-2SN2PGSB.js": "c26c615515856892a967722876e12ed249f17380",
     "https://beligh-tools.github.io/chunk-3TK6N7GQ.js": "efcedffd5758720d1b68fb6bf2bef35de0fe769b",
     "https://beligh-tools.github.io/chunk-5QNYT6DY.js": "ed834cc84cb02e443759f846749bb363f0e5a7e4",
@@ -120,6 +119,7 @@
     "https://beligh-tools.github.io/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
     "https://beligh-tools.github.io/index.html": "53277ee76eef8345c54c03ae1ea73b866c8ee407",
     "https://beligh-tools.github.io/main-MA4JD3E4.js": "e3bc5048091b1f259172b1a10e5dca0bfc42479a",
+    "https://beligh-tools.github.io/manifest.webmanifest": "6bd109a4bb0be050b95be6c77cd2f8b18723e406",
     "https://beligh-tools.github.io/polyfills-A7MJM4D4.js": "547053781d5952561abe68a51cc6c1a2b1b51c55",
     "https://beligh-tools.github.io/styles-OAJPTLG7.css": "54c173bdf8b14aff0fafc0782352ee3570c9b0c1"
   },
