@@ -1,6 +1,6 @@
 import {Component, inject, Input} from '@angular/core';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
-import {AsyncPipe, NgForOf, NgOptimizedImage} from '@angular/common';
+import {AsyncPipe, NgForOf, NgIf, NgOptimizedImage} from '@angular/common';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
@@ -28,6 +28,7 @@ import {RouterLink, RouterLinkActive, RouterOutlet} from '@angular/router';
     RouterLinkActive,
     NgForOf,
     NgOptimizedImage,
+    NgIf,
   ]
 })
 export class LayoutComponent {

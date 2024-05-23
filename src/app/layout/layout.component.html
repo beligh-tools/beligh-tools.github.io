@@ -4,7 +4,11 @@
       [mode]="(isHandset$ | async) ? 'over' : 'side'"
       [opened]="(isHandset$ | async) === false">
     <mat-toolbar>
-      <img [ngSrc]="config?.logo" alt="Logo" class="px-2" height="50" width="50"/>
+      <img *ngIf="config" [priority]="false"
+           [loading]="'auto'" [ngSrc]="config?.logo"
+           alt="Logo" class="px-2"
+           height="50"
+           width="50"/>
       <span>Menu</span>
     </mat-toolbar>
     <mat-nav-list>
@@ -13,7 +17,7 @@
                      routerLinkActive="active"
                      [routerLinkActiveOptions]="{exact: true}">
         <mat-icon matListItemIcon>{{ link.icon }}</mat-icon>
-        <a matListItemLine>{{ link.title }}</a>
+        <a matListItemTitle>{{ link.title }}</a>
       </mat-list-item>
     </mat-nav-list>
   </mat-sidenav>

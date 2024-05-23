@@ -21,6 +21,7 @@
     "@angular/platform-browser": "^18.0.0",
     "@angular/platform-browser-dynamic": "^18.0.0",
     "@angular/router": "^18.0.0",
+    "@angular/service-worker": "^18.0.0",
     "@rapideditor/country-coder": "^5.2.2",
     "@unovis/angular": "^1.4.1",
     "@unovis/ts": "^1.4.1",

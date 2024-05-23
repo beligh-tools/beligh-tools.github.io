@@ -3,12 +3,12 @@ import {RouterLink, RouterOutlet} from '@angular/router';
 import {LayoutComponent} from './layout/layout.component';
 import {AppService} from './app.service';
 
-import {AsyncPipe} from '@angular/common';
+import {AsyncPipe, NgIf} from '@angular/common';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, RouterLink, LayoutComponent, AsyncPipe],
+    imports: [RouterOutlet, RouterLink, LayoutComponent, AsyncPipe, NgIf],
   templateUrl: './app.component.html'
 })
 export class AppComponent  implements OnInit {
