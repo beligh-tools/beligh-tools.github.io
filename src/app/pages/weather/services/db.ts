@@ -1,6 +1,6 @@
 import {createDbWorker} from 'sql.js-httpvfs';
 import dayjs, {Dayjs} from 'dayjs';
-import {SplitFileConfig} from 'sql.js-httpvfs/dist/sqlite.worker';
+// import {SplitFileConfig} from 'sql.js-httpvfs/dist/sqlite.worker';
 
 const workerUrl = new URL(
   '/assets/sqlite.worker.js',
@@ -13,7 +13,7 @@ const wasmUrl = new URL(
   import.meta.url,
 );
 
-const config: SplitFileConfig = {
+const config: any = {
   from: 'jsonconfig',
   configUrl: '/assets/weather/config.json'
 };
