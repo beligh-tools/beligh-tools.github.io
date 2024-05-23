@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "expenses": {
+    "beligh-tools": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -32,7 +32,8 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/manifest.webmanifest"
             ],
             "styles": [
               "@angular/material/prebuilt-themes/indigo-pink.css",
@@ -69,10 +70,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "expenses:build:production"
+              "buildTarget": "beligh-tools:build:production"
             },
             "development": {
-              "buildTarget": "expenses:build:development"
+              "buildTarget": "beligh-tools:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +81,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "expenses:build"
+            "buildTarget": "beligh-tools:build"
           }
         },
         "test": {
