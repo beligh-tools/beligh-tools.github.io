@@ -3,12 +3,13 @@ import dayjs, {Dayjs} from 'dayjs';
 import {SplitFileConfig} from 'sql.js-httpvfs/dist/sqlite.worker';
 
 const workerUrl = new URL(
-  'sql.js-httpvfs/dist/sqlite.worker.js',
+  '/assets/sqlite.worker.js',
   import.meta.url,
 );
 
+// 'sql.js-httpvfs/dist/sqlite.worker.js',
 const wasmUrl = new URL(
-  'sql.js-httpvfs/dist/sql-wasm.wasm',
+  '/assets/sql-wasm.wasm',
   import.meta.url,
 );
 
